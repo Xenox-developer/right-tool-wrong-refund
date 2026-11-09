@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+.env
+.env.*
+*.session*
+credentials*.json
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm

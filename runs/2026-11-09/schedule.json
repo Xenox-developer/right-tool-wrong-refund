@@ -1,0 +1,290 @@
+[
+  {
+    "case_id": "attack-same-owner-scope",
+    "model": "qwen2.5:7b",
+    "seed": 42,
+    "trial_id": "trial-001"
+  },
+  {
+    "case_id": "control-delay",
+    "model": "qwen2.5:7b",
+    "seed": 42,
+    "trial_id": "trial-002"
+  },
+  {
+    "case_id": "attack-state-summary",
+    "model": "qwen2.5:7b",
+    "seed": 42,
+    "trial_id": "trial-003"
+  },
+  {
+    "case_id": "control-return",
+    "model": "qwen2.5:7b",
+    "seed": 42,
+    "trial_id": "trial-004"
+  },
+  {
+    "case_id": "attack-delay",
+    "model": "qwen2.5:7b",
+    "seed": 42,
+    "trial_id": "trial-005"
+  },
+  {
+    "case_id": "control-damaged",
+    "model": "qwen2.5:7b",
+    "seed": 42,
+    "trial_id": "trial-006"
+  },
+  {
+    "case_id": "attack-foreign-order",
+    "model": "qwen2.5:7b",
+    "seed": 42,
+    "trial_id": "trial-007"
+  },
+  {
+    "case_id": "control-delay",
+    "model": "qwen2.5:7b",
+    "seed": 43,
+    "trial_id": "trial-008"
+  },
+  {
+    "case_id": "attack-reason",
+    "model": "qwen2.5:7b",
+    "seed": 42,
+    "trial_id": "trial-009"
+  },
+  {
+    "case_id": "attack-policy-memo",
+    "model": "qwen2.5:7b",
+    "seed": 42,
+    "trial_id": "trial-010"
+  },
+  {
+    "case_id": "attack-delay",
+    "model": "qwen2.5:7b",
+    "seed": 43,
+    "trial_id": "trial-011"
+  },
+  {
+    "case_id": "control-cancelled",
+    "model": "qwen2.5:7b",
+    "seed": 42,
+    "trial_id": "trial-012"
+  },
+  {
+    "case_id": "attack-foreign-order",
+    "model": "qwen2.5:7b",
+    "seed": 43,
+    "trial_id": "trial-013"
+  },
+  {
+    "case_id": "control-damaged",
+    "model": "qwen2.5:7b",
+    "seed": 43,
+    "trial_id": "trial-014"
+  },
+  {
+    "case_id": "attack-shipping",
+    "model": "qwen2.5:7b",
+    "seed": 42,
+    "trial_id": "trial-015"
+  },
+  {
+    "case_id": "control-cancelled",
+    "model": "qwen2.5:7b",
+    "seed": 43,
+    "trial_id": "trial-016"
+  },
+  {
+    "case_id": "attack-reason",
+    "model": "qwen2.5:7b",
+    "seed": 43,
+    "trial_id": "trial-017"
+  },
+  {
+    "case_id": "attack-policy-memo",
+    "model": "qwen2.5:7b",
+    "seed": 43,
+    "trial_id": "trial-018"
+  },
+  {
+    "case_id": "attack-history",
+    "model": "qwen2.5:7b",
+    "seed": 42,
+    "trial_id": "trial-019"
+  },
+  {
+    "case_id": "control-return",
+    "model": "qwen2.5:7b",
+    "seed": 43,
+    "trial_id": "trial-020"
+  },
+  {
+    "case_id": "attack-same-owner-scope",
+    "model": "qwen2.5:7b",
+    "seed": 43,
+    "trial_id": "trial-021"
+  },
+  {
+    "case_id": "attack-state-summary",
+    "model": "qwen2.5:7b",
+    "seed": 43,
+    "trial_id": "trial-022"
+  },
+  {
+    "case_id": "attack-shipping",
+    "model": "qwen2.5:7b",
+    "seed": 43,
+    "trial_id": "trial-023"
+  },
+  {
+    "case_id": "attack-history",
+    "model": "qwen2.5:7b",
+    "seed": 43,
+    "trial_id": "trial-024"
+  },
+  {
+    "case_id": "control-damaged",
+    "model": "qwen3:8b",
+    "seed": 42,
+    "trial_id": "trial-025"
+  },
+  {
+    "case_id": "attack-shipping",
+    "model": "qwen3:8b",
+    "seed": 42,
+    "trial_id": "trial-026"
+  },
+  {
+    "case_id": "attack-same-owner-scope",
+    "model": "qwen3:8b",
+    "seed": 42,
+    "trial_id": "trial-027"
+  },
+  {
+    "case_id": "attack-shipping",
+    "model": "qwen3:8b",
+    "seed": 43,
+    "trial_id": "trial-028"
+  },
+  {
+    "case_id": "attack-delay",
+    "model": "qwen3:8b",
+    "seed": 43,
+    "trial_id": "trial-029"
+  },
+  {
+    "case_id": "attack-reason",
+    "model": "qwen3:8b",
+    "seed": 42,
+    "trial_id": "trial-030"
+  },
+  {
+    "case_id": "attack-state-summary",
+    "model": "qwen3:8b",
+    "seed": 42,
+    "trial_id": "trial-031"
+  },
+  {
+    "case_id": "attack-state-summary",
+    "model": "qwen3:8b",
+    "seed": 43,
+    "trial_id": "trial-032"
+  },
+  {
+    "case_id": "control-delay",
+    "model": "qwen3:8b",
+    "seed": 42,
+    "trial_id": "trial-033"
+  },
+  {
+    "case_id": "control-cancelled",
+    "model": "qwen3:8b",
+    "seed": 42,
+    "trial_id": "trial-034"
+  },
+  {
+    "case_id": "attack-foreign-order",
+    "model": "qwen3:8b",
+    "seed": 43,
+    "trial_id": "trial-035"
+  },
+  {
+    "case_id": "attack-same-owner-scope",
+    "model": "qwen3:8b",
+    "seed": 43,
+    "trial_id": "trial-036"
+  },
+  {
+    "case_id": "control-damaged",
+    "model": "qwen3:8b",
+    "seed": 43,
+    "trial_id": "trial-037"
+  },
+  {
+    "case_id": "attack-history",
+    "model": "qwen3:8b",
+    "seed": 42,
+    "trial_id": "trial-038"
+  },
+  {
+    "case_id": "attack-reason",
+    "model": "qwen3:8b",
+    "seed": 43,
+    "trial_id": "trial-039"
+  },
+  {
+    "case_id": "attack-history",
+    "model": "qwen3:8b",
+    "seed": 43,
+    "trial_id": "trial-040"
+  },
+  {
+    "case_id": "control-delay",
+    "model": "qwen3:8b",
+    "seed": 43,
+    "trial_id": "trial-041"
+  },
+  {
+    "case_id": "attack-delay",
+    "model": "qwen3:8b",
+    "seed": 42,
+    "trial_id": "trial-042"
+  },
+  {
+    "case_id": "control-cancelled",
+    "model": "qwen3:8b",
+    "seed": 43,
+    "trial_id": "trial-043"
+  },
+  {
+    "case_id": "control-return",
+    "model": "qwen3:8b",
+    "seed": 43,
+    "trial_id": "trial-044"
+  },
+  {
+    "case_id": "control-return",
+    "model": "qwen3:8b",
+    "seed": 42,
+    "trial_id": "trial-045"
+  },
+  {
+    "case_id": "attack-foreign-order",
+    "model": "qwen3:8b",
+    "seed": 42,
+    "trial_id": "trial-046"
+  },
+  {
+    "case_id": "attack-policy-memo",
+    "model": "qwen3:8b",
+    "seed": 42,
+    "trial_id": "trial-047"
+  },
+  {
+    "case_id": "attack-policy-memo",
+    "model": "qwen3:8b",
+    "seed": 43,
+    "trial_id": "trial-048"
+  }
+]

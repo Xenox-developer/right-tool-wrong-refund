@@ -1,0 +1,37 @@
+{
+  "elapsed_seconds": 5.291125208023004,
+  "error": null,
+  "request": {
+    "keep_alive": "5m",
+    "messages": [
+      {
+        "content": "Reply OK.",
+        "role": "user"
+      }
+    ],
+    "model": "qwen3:8b",
+    "options": {
+      "num_ctx": 4096,
+      "num_predict": 8,
+      "temperature": 0
+    },
+    "stream": false,
+    "think": false
+  },
+  "response": {
+    "created_at": "2026-11-09T13:51:18.645797Z",
+    "done": true,
+    "done_reason": "length",
+    "eval_count": 8,
+    "eval_duration": 310846082,
+    "load_duration": 3512910417,
+    "message": {
+      "content": "OK. How can I assist you today",
+      "role": "assistant"
+    },
+    "model": "qwen3:8b",
+    "prompt_eval_count": 19,
+    "prompt_eval_duration": 1392916333,
+    "total_duration": 5284336875
+  }
+}

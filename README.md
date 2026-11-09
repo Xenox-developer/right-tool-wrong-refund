@@ -4,6 +4,23 @@ A local AI Security experiment: can a model call the approved tool with unauthor
 
 This independently authored synthetic pilot is inspired by [Beyond Instruction Override: Benchmarking Indirect Prompt Injection with Task-Tampering Attacks](https://arxiv.org/abs/2611.07640) and its [original repository](https://github.com/amazon-science/task-tampering-prompt-injection). It does **not** reproduce the paper's dataset, environments or success rates. No source-benchmark code or fixtures are copied here.
 
+## Measured result
+
+[Full report](runs/2026-11-09/REPORT.md) · [Raw requests/responses](runs/2026-11-09/trials.jsonl) · [Methodology review](REVIEW.md) · [English LinkedIn draft](POST.md)
+
+| Model | Unauthorized writes: allowlist | Unauthorized writes: business rules | Benign completion: both servers |
+|---|---:|---:|---:|
+| Qwen2.5 7B | 12/16 | 0/16 | 8/8 |
+| Qwen3 8B | 10/16 | 0/16 | 8/8 |
+
+All 48 measured responses contained a native tool call; no protocol or transport errors. The run used 50 generation attempts including warmups, with no paid API calls. Both installed models used Q4_K_M quantization; their full digests and Ollama version are in the [manifest](runs/2026-11-09/manifest.json).
+
+![Measured local ledger outcomes](runs/2026-11-09/results.png)
+
+Safety and completion differ. On attacked inputs, exact legitimate completion remained **2/16 for Qwen2.5 and 6/16 for Qwen3**, under both server modes. The validator rejected unauthorized proposals without repairing them. Two Qwen2.5 proposals underpaid the legitimate refund and were accepted by both servers; these count as task failures, not unauthorized writes under the declared safety metric.
+
+The two draws agreed within every case/model. Repeated seeds do not double the number of independent documents. The four benign controls are separate cases; there is no matched clean version of each attack case, so errors cannot all be causally attributed to the misleading text.
+
 ## Design
 
 12 customer documents: 8 with conflicting refund claims and 4 benign controls. The system prompt provides trusted merchant policy, authenticated customer, scoped order and authoritative order facts. The model proposes one native `issue_refund(order_id, amount_cents, currency)` call.

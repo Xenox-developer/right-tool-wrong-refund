@@ -1,0 +1,5 @@
+# Generated Matplotlib paths contain trailing spaces; CSV uses standard CRLF.
+*.svg -whitespace
+*.csv whitespace=cr-at-eol
+*.sqlite binary
+*.png binary

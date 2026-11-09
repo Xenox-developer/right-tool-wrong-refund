@@ -1,0 +1,71 @@
+{
+  "authorization": "One-off additional 50 local generations authorized in setup chat on 2026-11-09; no paid APIs.",
+  "created_utc": "2026-11-09T13:49:59.422244+00:00",
+  "files_sha256": {
+    "PROTOCOL.md": "cec082a6ac88864aaf30a6262e4dd3eb57257912566656becb9c2354e8e6abe5",
+    "data/cases.json": "94adb73d21dd2eb00f5c2a43579ac408121d677b96a2412cc0e8a70eeda3b020",
+    "pyproject.toml": "9aa6115d37dcdd3f070829e86414e8997eab5e193821acf162863d251e5932ca",
+    "refund_lab/__init__.py": "9b126ffd030fc3c6fae77cad32d0aba7e3e03448bd19a8193a3a2257c911e0c5",
+    "refund_lab/__main__.py": "08f7542482ef63d37f32260f05bd64a941ecf627868a7b1b74a75d639b925ff2",
+    "refund_lab/analysis.py": "13722191429a588e398af573aef6921c1597fc56ceac53e621fe8efac1aec012",
+    "refund_lab/audit.py": "309a618918cc3b3317fa23bf0f5569df411236519cea96db004947fd46f90ea6",
+    "refund_lab/experiment.py": "23118557d9ca6c7da46022ad87a2796937a4481a2eca18808248c56abdfd2265",
+    "refund_lab/fixtures.py": "1fb36f88945929ffec943019ea64e6352bffb6063c880d33e4215ff1965199ea",
+    "refund_lab/ledger.py": "3f145a095c0b3624047f2e43fce3bcc61202dcca1f1c60b5f206171f3218230d",
+    "refund_lab/plot.py": "2cb8453149b0f5d9d2e4533ea38921f1d56729011f93ffea28990ea92bea42ac",
+    "refund_lab/policy.py": "7b4e04970c357b3555ea16f9858f41e1d3eca659b02048fac3405e10b6fc20b0",
+    "refund_lab/protocol.py": "78f42f693fc6828f54c7a5b1728f8732f7d5571cac966745912d1217952f76e9",
+    "tests/test_experiment.py": "ca66e6db1cf545044d7ad46baf4562a4a973ca3e0e01506d6960f9b09019e130",
+    "tests/test_ledger.py": "88553d2a5a1b6e4d83f4263f469b8837ce6c4c67c4741c34bfc39b45af778335",
+    "tests/test_protocol.py": "1423922da5307d96f13aa5e2e8555e2e1616e548937590a5cd4885ef982029e8"
+  },
+  "max_attempts": 50,
+  "ollama": {
+    "models": {
+      "qwen2.5:7b": {
+        "details": {
+          "families": [
+            "qwen2"
+          ],
+          "family": "qwen2",
+          "format": "gguf",
+          "parameter_size": "7.6B",
+          "parent_model": "",
+          "quantization_level": "Q4_K_M"
+        },
+        "digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+        "model": "qwen2.5:7b",
+        "modified_at": "2026-04-07T13:46:39.553530073+03:00",
+        "name": "qwen2.5:7b",
+        "size": 4683087332
+      },
+      "qwen3:8b": {
+        "details": {
+          "families": [
+            "qwen3"
+          ],
+          "family": "qwen3",
+          "format": "gguf",
+          "parameter_size": "8.2B",
+          "parent_model": "",
+          "quantization_level": "Q4_K_M"
+        },
+        "digest": "500a1f067a9f782620b40bee6f7b0c89e17ae61f686b92c24933e4ca4b2b8b41",
+        "model": "qwen3:8b",
+        "modified_at": "2026-09-04T14:05:28.498412041+03:00",
+        "name": "qwen3:8b",
+        "size": 5225388164
+      }
+    },
+    "version": {
+      "version": "0.20.2"
+    }
+  },
+  "platform": "macOS-15.6.1-arm64-arm-64bit",
+  "python": "3.12.1",
+  "request_timeout_seconds": 90,
+  "schedule_sha256": "77c6b55b00dc8d89bf97452ff0c5a95767fb72a5534157814d06bc9082b14179",
+  "schema": 1,
+  "tested_commit": "706fd241f23f77e6b3e490a5ee74b601d5dfeb91",
+  "wall_seconds": 1200
+}

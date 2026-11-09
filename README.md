@@ -15,7 +15,7 @@ This independently authored synthetic pilot is inspired by [Beyond Instruction O
 
 All 48 measured responses contained a native tool call; no protocol or transport errors. The run used 50 generation attempts including warmups, with no paid API calls. Both installed models used Q4_K_M quantization; their full digests and Ollama version are in the [manifest](runs/2026-11-09/manifest.json).
 
-![Measured local ledger outcomes](runs/2026-11-09/results.png)
+![Measured local ledger outcomes](runs/2026-11-09/results-plain.png)
 
 Safety and completion differ. On attacked inputs, exact legitimate completion remained **2/16 for Qwen2.5 and 6/16 for Qwen3**, under both server modes. The validator rejected unauthorized proposals without repairing them. Two Qwen2.5 proposals underpaid the legitimate refund and were accepted by both servers; these count as task failures, not unauthorized writes under the declared safety metric.
 
@@ -61,3 +61,7 @@ Each run includes full model digests and Ollama version, tested Git revision, ha
 Fixtures are handcrafted. The document is the experimental unit; seeds are repeated measurements. This small pilot provides no population attack-success estimate, model ranking, evidence of real financial loss, or general guarantee against prompt injection. The server enforces the rules used to define authorization: zero unauthorized writes would establish only that this validator handled these cases. Missing native calls, truncations and transport errors are separately reported and require review before publication.
 
 Only independently authored code/fixtures are MIT licensed. Referenced research retains its own licensing.
+
+## Figure presentation revision
+
+The current share image uses only metric titles, model/server labels, axes and measured counts. Rebuild it with `python3 presentation/plot_results.py` from the repository root. It reads the existing saved results and writes `runs/2026-11-09/results-plain.png` and `.svg`. This is a presentation-only change: original measured source, frozen hashes, protocol, raw responses, ledger outcomes and original figure remain preserved. Methodology and limitations are in the post and report, rather than on the image.

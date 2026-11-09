@@ -26,3 +26,7 @@ Zero unauthorized policy-server writes is a result for these known, deterministi
 ## Draft status
 
 The English post reports the actual small-pilot counts, includes completion limitations and links to the public experiment repository and original paper. LinkedIn publication is a separate user action.
+
+## Figure revision
+
+On November 9, 2026 the image presentation was revised at the user's request. The new `results-plain.png`/`.svg` removes the rhetorical title, narrative subtitle and protocol/footer notes. Numerical counts and denominators are unchanged. The renderer is `presentation/plot_results.py`; the measured implementation and its original frozen source are unchanged.
